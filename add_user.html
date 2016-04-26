@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Assignment: Add user</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="data-table">
+			<table>
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Email Address</th>
+						<th>Contact #</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<div id="data-form">
+			<h1>Add User</h1>
+			<form id="user_form">
+				<label for="first_name">First Name</label>
+				<input type="text" id="first_name" name="first_name" placeholder="First Name">
+
+				<label for="last_name">Last Name</label>
+				<input type="text" id="last_name" name="last_name" placeholder="Last Name">
+
+				<label for="email">Email Address</label>
+				<input type="email" id="email" name="email" placeholder="Email Address">
+
+				<label for="contact">Contact No.</label>
+				<input type="number" id="contact" name="contact" placeholder="Phone #">
+
+				<input type="submit" value="Add User">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

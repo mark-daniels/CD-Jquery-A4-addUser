@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Tahoma";
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* WRAPPER ------------------------ */
+#wrapper {
+	width: 600px;
+	margin: 0px auto;
+	background-color: #dddddd;
+}
+
+/* TABLE -------------------------- */
+table {
+	width: 600px;
+	padding: 10px 20px;
+}
+	table th {
+		background-color: #860000;
+		color: #ffffff;
+		margin: 0px;
+		padding: 0px;
+		border: 1px solid #666666;
+	}
+	table td {
+		border: 1px solid #666666;
+		text-align: center;
+	}
+
+/* FORM --------------------------- */
+#data-form h1 {
+	margin: 10px 20px;
+	font-size: 24px;
+	width: 290px;
+	border-bottom: 2px solid #860000;
+}
+form {
+	margin: 10px 20px;
+	width: 350px;
+}
+	label {
+		display: inline-block;
+		width: 85px;
+		padding-left: 10px;
+		text-align: right;
+	}
+	form input {
+		display: inline;
+		margin: 10px 20px;
+	}
+	input[type="submit"] {
+		color: #ffffff;
+		background-color: #860000;
+		margin-left: 213px;
+		padding: 5px 10px;
+		border-radius: 5px;
+		/*border: 1px solid #ffffff;*/
+	}
+
